@@ -1,0 +1,15 @@
+-- FILE: createPaymentTable.sql
+-- Date: Nov. 19, 23
+-- PURPOSE: CREATE PAYMENT TABLE
+---------------------------------------------------------------
+
+-- Create PAYMENT table
+CREATE TABLE PAYMENT (
+    PAYMENT_ID INT PRIMARY KEY,
+    SALES_ID INT,
+    CUSTOMER_ID INT,
+    COST DECIMAL(10, 2),
+    PAYMENT_TYPE VARCHAR(255),
+    FOREIGN KEY (SALES_ID) REFERENCES SALES(SALES_ID),
+    FOREIGN KEY (CUSTOMER_ID) REFERENCES CUSTOMER(CUSTOMER_ID)
+);
