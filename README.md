@@ -74,10 +74,11 @@ To deploy the database, follow this sequence:
 
 ```bash
 sqlcmd -S YourServerName -d YourDatabaseName -E -i "C:\Path\To\SQL\drop_tables.sql"
+```
 
 ---
 
-##🔍 Key Insights
+### 🔍 Key Insights
 
 - **Product Trends**: *Hard Root Beer* emerged as a standout favorite among customers, highlighting the importance of stocking niche and novelty items.
 - **Gender Diversity**: The store maintains a balanced employee structure, with 3 out of 5 staff members being female – reflecting inclusive hiring practices.
@@ -101,9 +102,11 @@ Whether for small business owners, database learners, or aspiring analysts, this
 
 ---
 
-## 🙏 Acknowledgment
 
-Special thanks to the creators, testers, and reviewers of this project. Your contributions brought this simulation to life. This project also draws inspiration from real-world retail practices and aims to bridge the gap between classroom learning and business application.
+### 📜 License
+This project is for educational and portfolio use. Please credit the repository or author when referencing or reusing it.
 
-Cheers to clean schemas, insightful queries, and responsibly enjoyed beverages! 🍻
+---
+
+
 
